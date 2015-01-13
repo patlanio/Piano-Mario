@@ -1,0 +1,54 @@
+.pantalla{
+	height: 600px;
+	width: 30%;
+	margin-left: 35%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.pantalla-principal{
+	background-color: orange;
+}
+
+.pantalla-fin{
+	background-color: red;
+}
+
+.pantalla-juego{
+	border-top: solid black 1px;
+	transition: all 1s;
+}
+
+.linea-casillas{
+	height: 25%;
+	display: block;
+}
+
+.linea-casillas > .casilla:last-child{
+	border-right: solid black 1px;
+}
+
+.casilla{
+	margin: -2px;
+	cursor: pointer;
+	border-top: solid black 1px;
+	border-left: solid black 1px;
+	padding: 0;
+	height: 100%;
+	display: inline-block;
+	width: 24%;
+	
+}
+.casilla-blanca:hover{
+	background-color: rgba(100,100,100, 0.5);
+}
+
+.casilla-blanca{
+	color: black;
+	background-color: white;
+}
+
+.casilla-negra{
+	color: white;
+	background-color: black;
+}
